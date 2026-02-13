@@ -1,0 +1,19 @@
+# Core deep learning (CUDA handled by PyTorch wheels)
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+
+# HuggingFace LLM stack
+transformers>=4.36.0
+accelerate>=0.25.0
+bitsandbytes>=0.41.0
+
+# Uncertainty + math
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Semantic variance
+sentence-transformers>=2.2.2
+
+# Utilities
+tqdm>=4.66.0
